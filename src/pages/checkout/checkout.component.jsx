@@ -10,7 +10,6 @@ import {
 } from "../../redux/cart/cart.selectors";
 
 import "./checkout.styles.sass";
-import { create } from "domain";
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
